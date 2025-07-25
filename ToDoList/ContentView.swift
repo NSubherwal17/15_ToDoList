@@ -21,13 +21,13 @@ struct ContentView: View {
                 Spacer()
                 Button {
                     
-                } label: { //button close
+                } label: {
                     
                     Text("+")
                         .font(.title)
                         .fontWeight(.bold)
                     
-                }//label
+                }//button
                 
             }//hstack
             .padding()
