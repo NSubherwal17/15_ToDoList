@@ -23,7 +23,11 @@ struct ContentView: View {
                 Spacer()
                 Button {
                     
-                    showNewTask = true
+                    withAnimation {
+                        
+                        showNewTask = true
+                        
+                    }//with animation
                     
                 } label: {
                     
